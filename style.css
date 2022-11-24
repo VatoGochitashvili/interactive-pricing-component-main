@@ -34,7 +34,7 @@ body {
   background-color: white;
   position: relative;
   align-items: center;
-  background-image: url(./images/bg-pattern.svg);
+  background-image: url(/interactive-pricing-component-main/images/bg-pattern.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -18rem;
@@ -48,7 +48,7 @@ header {
   justify-content: center;
   margin-top: 9rem;
   margin-bottom: 6.4rem;
-  background-image: url(./images/pattern-circles.svg);
+  background-image: url(/interactive-pricing-component-main/images/pattern-circles.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -101,7 +101,7 @@ header span {
   height: 4rem;
   border-radius: 2rem;
   background: var(--Slider_Backround);
-  background-image: url(./images/icon-slider.svg);
+  background-image: url(/interactive-pricing-component-main/images/icon-slider.svg);
   background-repeat: no-repeat;
   background-size: initial;
   background-position: center;
@@ -132,7 +132,7 @@ header span {
   height: 4rem;
   border-radius: 2rem;
   background: var(--Slider_Backround);
-  background-image: url(./images/icon-slider.svg);
+  background-image: url(/interactive-pricing-component-main/images/icon-slider.svg);
   background-repeat: no-repeat;
   background-size: initial;
   background-position: center;

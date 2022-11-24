@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>
+        Sign-up for our 30-day trial. <span> No credit card required.</span>
+      </p>
+    </header>
+    <div class="container">
+      <div class="calc-price">
+        <div class="desktop_price_views">
+          <p class="views"><span>100K</span> Pageviews</p>
+        </div>
+        <input type="range" class="slider" min="1" max="5" />
+        <div class="price mobile" id="price">
+          <h2>$16.00</h2>
+          <p>/ month</p>
+        </div>
+        <div class="plan-term">
+          <p class="monthly">Monthly Billing</p>
+          <label class="toggle">
+            <input type="checkbox" id="checkbox" />
+            <div class="toggle__fill"></div>
+          </label>
+          <p class="monthly">Yearly Billing</p>
+          <div class="discount">
+            <p>-25%</p>
+            <p class="discount_text">discount</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="benefits-button">
+        <div class="benefits">
+          <div>
+            <img src="./images/icon-check.svg" class="check" alt="checkmark" />
+            <p>Unlimited websites</p>
+          </div>
+          <div>
+            <img src="./images/icon-check.svg" class="check" alt="checkmark" />
+            <p>100% data ownership</p>
+          </div>
+          <div>
+            <img src="./images/icon-check.svg" class="check" alt="checkmark" />
+            <p>Email reports</p>
+          </div>
+        </div>
+        <button class="trial" type="submit">Strat my trial</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
